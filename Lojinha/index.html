@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--Meu documento HTML-->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Atêlie Kamado </title>
+		<link rel="shortcut icon" href="logo.png.opdownload" type="icon">
+		<link rel="stylesheet" href="estilo-das-páginas.css">
+	</head>
+
+	<body>
+		<script type="text/javascript" src="Comandos_das_páginas.js"></script>
+		<div id ="Titulo">
+			<div id = plano-de-fundo>
+				<h1 class = "Cabeçalho">Ateliê dos Kamados</h1>
+				<h2 class = "Cabeçalho">As melhores roupas e irmãs da região</h2>
+			</div>
+			<div id="caixa-de-menu">
+				<ul>
+					<li class="lista-navegação"><a class="lista-navegação" href="index.html">Home</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="cadastro.html">Cadastro</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Tela de login.html">Login</a></li>
+					<li class="lista-navegação"><a href="#" class="item-produtos">Produtos</a>
+					<div class="links-produtos">
+						<a href="#segunda_div" onClick="mudar_produto('Camisetas')">Camiseta</a>
+						<a href="#segunda_div" onClick="mudar_produto('Calças')">Calça</a>
+						<a href="#segunda_div" onClick="mudar_produto('Kimonos')">Kimonos</a>
+						<a href="#segunda_div" onClick="mudar_produto('Uniformes')">Uniformes</a>
+						<a href="#segunda_div" onClick="mudar_produto('Meias')">Meias</a>
+						<a href="#segunda_div" onClick="mudar_produto('Bainhas')">Bainhas</a>
+					</div>
+					</li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Adicionar produtos.html">Vender Produtos</a></li>
+					<a href="carrinho.html"><img onmouseover = "carrinho_nezuko(document.getElementById('img_carrinho'));" onmouseout = "carrinho_normal(document.getElementById('img_carrinho'))" id = "img_carrinho" src="Carrinho.png" align="right"></a>
+				</ul>
+			</div>
+		</div>
+		<div id = "primeira_div">
+			<img id="tanjiro" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f9ed4816-c11c-48b1-9f8e-00c3a5ade0a8/dewzsjo-0581130f-c95f-40d2-a1dd-618c9572670a.png/v1/fill/w_1062,h_752,strp/tanjiro_kamado_render_png_1_by_karmicraze_dewzsjo-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODgwIiwicGF0aCI6IlwvZlwvZjllZDQ4MTYtYzExYy00OGIxLTlmOGUtMDBjM2E1YWRlMGE4XC9kZXd6c2pvLTA1ODExMzBmLWM5NWYtNDBkMi1hMWRkLTYxOGM5NTcyNjcwYS5wbmciLCJ3aWR0aCI6Ijw9MTI0MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.du5eKgI4d9qgOKSTUBrp7ThFNXOIx6QGr1_UL2Z5mmY">
+			<div id="Descrição">
+				<br>
+				<div id="texto_div">
+					<h1 id="titulo_div">As roupas de seu anime favorito, agora em um atêlie!</h1>
+					<p>Uma loja temática de seu anime favorito, e com preços supreendentementes acessíveis para qualquer otaku fedido.</p>
+					<p>Faça ou acesse sua conta, escolha um produto, e entre no estilo desse fantástico mundo 2D!</p>
+				</div>
+			</div>
+		</div>
+		<div id="segunda_div">
+			<img id="gradiente" src="gradiente.png">
+			<div id="titulo_produtos">Produtos</div>
+			<img id="nezuko" src="nezuko.png">
+			<img id="moldura_chinesa1" src="moldura chinesa.png" onMouseout="desinflar_camiseta();" onMouseover="inflar_camiseta();" onClick="mudar_produto('Camisetas');">
+			<div id="div_produto1"></div>
+			<img id="camiseta_pequena" src="camisetas.jpg">
+			<img id="moldura_chinesa2" src="moldura chinesa.png" onMouseover="inflar_calca();" onmouseout="desinflar_calca();" onClick="mudar_produto('Calças');">
+			<div id="div_produto2"></div>
+			<img id="calca_pequena" src="Calças.jpg">
+			<img id="moldura_chinesa3" src="moldura chinesa.png" onMouseOver="inflar_kimono();" onMouseOut="desinflar_kimono();" onClick="mudar_produto('Kimonos');">
+			<div id="div_produto3"></div>
+			<img id="kimono_pequeno" src="kimonos.jpeg">
+			<img id="moldura_chinesa4" src="moldura chinesa.png" onMouseover="inflar_uniforme();" onMouseOut="desinflar_uniforme();" onClick="mudar_produto('Uniformes');">
+			<div id="div_produto4"></div>
+			<img id="uniforme_pequeno" src="Uniforme.png">
+			<img id="moldura_chinesa5" src="moldura chinesa.png" onMouseOver="inflar_meia();" onMouseOut="desinflar_meia();" onClick="mudar_produto('Meias');">
+			<div id="div_produto5"></div>
+			<img id="meia_pequena" src="Meias.jpg">
+			<img id="moldura_chinesa6" src="moldura chinesa.png" onMouseover="inflar_bainha();" onMouseout="desinflar_bainha();" onClick="mudar_produto('Bainhas');">
+			<div id="div_produto6"></div>
+			<img id="bainha_pequena" src="Bainhas.jpg">
+			<div id="nome_produto">Camisetas</div>
+			<div id="mostruario">
+				<img id="Camisetas" src="camisetas.jpg">
+				<img id="Calças" src="Calças.jpg">
+				<img id="Kimonos" src="kimonos.jpeg">
+				<img id="Uniformes" src="Uniforme.png">
+				<img id="Meias" src="Meias.jpg">
+				<img id="Bainhas" src="Bainhas.jpg">
+			</div>
+			<div id="relacao_de_tamanhos"><p><b>Tamanhos:</b> P, M, G, GG;<br>
+			<b>Cores:</b> Branco, preto, amarelo, vermelho, cinza, grafite e azul-marinho;</p></div>
+		</div>
+		<h2 id="relação_de_preços">Relação de preços:</h2>
+		<table class="tabela" border="1">
+			<thead>
+				<tr>
+					<th class="cabeça"> Produto </th>
+					<th class="cabeça"> Preço (Reais) </th>
+					<th class="cabeça"> Preço (Ienes) </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="coiso">Camisetas</td>
+					<td class="coiso"> R$ 50,00</td>
+					<td class="coiso"> ¥ 1247,88</td>
+				</tr>
+				<tr>
+					<td class="coiso">Calças</td>
+					<td class="coiso"> R$ 70,00</td>
+					<td class="coiso"> ¥ 1747,03</td>
+				</tr>
+				<tr>
+					<td class="coiso">Kimonos</td>
+					<td class="coiso"> R$ 200,00</td>
+					<td class="coiso"> ¥ 4991,50</td>
+				</tr>
+				<tr>
+					<td class="coiso">Uniformes</td>
+					<td class="coiso"> R$ 600,00</td>
+					<td class="coiso"> ¥ 14974,51</td>
+				</tr>
+				<tr>
+					<td class="coiso">Meias</td>
+					<td class="coiso"> R$ 30,00</td>
+					<td class="coiso"> ¥ 748,73</td>
+				</tr>
+				<tr>
+					<td class="coiso">Bainhas</td>
+					<td class="coiso"> R$ 150,00</td>
+					<td class="coiso"> ¥ 3743,63</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="terceira_div">
+			<div id="lugar_tabela">
+				<img id="borda_leds" src="Borda_leds.png">
+				<img id="inosuke" src="Inosuke.png">
+			</div>
+		</div>
+		<hr>
+		<hr>
+		<div id="parte_de_baixo">
+			<h2 id="h2_navegacao">Navegação</h2>
+			<ul id="links_navegação_baixo">
+				<li class="link_baixo"><a href="index.html">Home</a></li>
+				<li class="link_baixo"><a href="cadastro.html">Cadastro</a></li>
+				<li class="link_baixo"><a href="Tela de login.html">Login</a></li>
+				<li class="link_baixo"><a href="Adicionar produtos.html">Venda de Produtos</a></li>
+				<li class="link_baixo"><a href="carrinho.html">Carrinho</a></li>
+			</ul>
+			<fieldset id="fieldset_contatos">
+				<H2 id="entre_em_contato">Entre em contato conosco!</H2>
+				<ul id="Contatos">
+					<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Instagram.png"></a></li>
+					<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Whatsapp.png"></a></li>
+					<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Email.png"></a></li>
+				</ul>
+			</fieldset>
+		</div>
+		<hr class="hr_baixo">
+		<hr class="hr_baixo">
+		<h3 id="creditos"><u>Feito e estilizado por: Pedro Viana de Castilhos</u></h3>
+		<a href="#Titulo"><img id="seta" src="seta.png"></a>
+		<br>
+		<br>
+		<hr>
+		<hr>
+	</body>
+</html>

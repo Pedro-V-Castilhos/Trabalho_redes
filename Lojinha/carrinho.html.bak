@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Carrinho de compras</title>
+		<link rel="shortcut icon" href="J:\Pedro Viana\pratica 1_2a\Carrinho.png" type="icon">
+		<script>
+			var valor_total = 0;
+			function acrescentar(valor){
+				if (valor="Camiseta"){
+					valor_total = valor_total + 50;
+				}else if (valor="Calça"){
+					valor_total = valor_total + 70;
+				}else if (valor="Kimonos"){
+					valor_total += 200;
+				}else if (valor="Uniformes"){
+					valor_total += 600;
+				}else if (valor="Meias"){
+					valor_total += 30;
+				}else if (valor="Bainhas"){
+					valor_total += 150;
+				};
+				alert("Sua compra está em:" + valor_total);
+			};
+		</script>
+	</head>
+	<body>
+		<h1 style="text-align: center;">Carrinho</h1>
+		<hr><hr><form onsubmit="acrescentar(produto.value);">
+		<b>Selecione o que você deseja com base nos tamanhos disponíveis:</b>
+		<select id="produto">
+			<option>-------------------</option>
+			<optgroup label="Tamanho PP">
+				<option value="Camiseta">Camiseta</option>
+				<option value="Calça">Calça</option>
+				<option value="Kimonos">Kimonos</option>
+			</optgroup>
+			<optgroup label="Tamanho P">
+				<option value="Camiseta">Camiseta</option>
+				<option value="Calça">Calça</option>
+				<option value="Kimonos">Kimonos</option>
+				<option value="Uniformes">Uniformes</option>
+			</optgroup>
+			<optgroup label="Tamanho M">
+				<option value="Camiseta">Camiseta</option>
+				<option value="Calça">Calça</option>
+				<option value="Kimonos">Kimonos</option>
+				<option value="Uniformes">Uniformes</option>
+			</optgroup>
+			<optgroup label="Tamanho G">
+				<option value="Camiseta">Camiseta</option>
+				<option value="Calça">Calça</option>
+				<option value="Kimonos">Kimonos</option>
+				<option value="Uniformes">Uniformes</option>
+			</optgroup>
+			<optgroup label="Tamanho GG">
+				<option value="Camiseta">Camiseta</option>
+				<option value="Calça">Calça</option>
+				<option value="Uniformes">Uniformes</option>
+			</optgroup>
+			<optgroup label="Tamanhos de meias">
+				<option value="Meias">Meias 40-46</option>
+				<option value="Meias">Meias 32-38</option>
+				<option value="Meias">Meias 24-30</option>
+			</optgroup>
+			<optgroup label="Bainha">
+				<option value="Bainhas">Bainhas</option>
+			</optgroup>
+		</select><br><br>
+		<b>Selecione o tipo de roupa que você deseja:</b>
+		<input list="teste">
+		<datalist id="teste">
+			<option label="Camiseta">Camiseta Polo</option>
+			<option label="Camiseta">Camiseta Regata</option>
+			<option label="Camiseta">Camiseta Gola-O</option>
+			<option label="Camiseta">Camiseta Gola-V</option>
+			<option label="Calça">Calça Jeans</option>
+			<option label="Calça">Calça Legging</option>
+			<option label="Calça">Calça Tactel</option>
+			<option label="Kimonos">Kurotomesode</option>
+			<option label="Kimonos">Irotomesode</option>
+			<option label="Kimonos">Furisode</option>
+			<option label="Kimonos">Houmongi</option>
+			<option label="Kimonos">Tsukesage</option>
+			<option label="Kimonos">Iromuji</option>
+			<option label="Kimonos">Komon</option>
+			<option label="Kimonos">Tomesode</option>
+			<option label="Kimonos">Yukata</option>
+			<option label="Uniformes">Tradicional - Marrom</option>
+			<option label="Uniformes">Tradicional - Azul marinho</option>
+			<option label="Uniformes">Tradicional - Preto</option>
+			<option label="Meias">Cano baixo</option>
+			<option label="Meias">Cano médio</option>
+			<option label="Cano alto">Cano alto</option>
+			<option label="Bainhas">Machado</option>
+			<option label="Bainhas">Katana</option>
+			<option label="Bainhas">Nichirin</option>
+			<option label="Bainhas">Shuroken</option>
+			<option label="Bainhas">Canivetes</option>
+			<option label="Bainhas">Espadões</option>
+		</datalist>
+		<br>
+		<hr>
+		<hr>
+			<input type="submit" value="Adiconar ao carrinho">
+			<output value="valor_total"></output>
+		</form>
+		<form>
+		</form>
+	</body>
+</html>

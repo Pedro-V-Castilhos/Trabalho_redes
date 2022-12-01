@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--Meu documento HTML-->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Atividade - Loja de roupas </title>
+		<link rel="shortcut icon" href="J:\Pedro Viana\pratica 1_2a\Carrinho.png" type="icon">
+	</head>
+	
+	<body>
+		<div style="background-image:url('file:///J:/Pedro%20Viana/pratica%201_2a/roupa_tanjiro.jpg')">
+			<h1 style="text-align: center;font-family:fantasy;color:aliceblue">Ateliê dos Kamados</h1>
+			<h2 style="text-align:center;font-family:Georgia, 'Times New Roman', Times, serif;color:aliceblue">As melhores roupas e irmãs da região</h2>
+		</div>
+		<hr>
+		<h2><strong>Cadastro</strong></h2>
+		<figure>
+			<a href="file:///J:/Pedro%20Viana/pratica%201_2a/carrinho.html"><img src="J:\Pedro Viana\pratica 1_2a\Carrinho.png" align="right" style="width:50px"></a>
+		</figure>
+		<form action="file:///J:/Pedro%20Viana/pratica%201_2a/Tela%20de%20login.html">
+			<h3>Acesse a sua conta para realizar compras:</h3>
+			<input type="submit" id="submeter" value="Acessar sua conta">
+		</form>
+		<br>
+		Não tem uma conta? Acesse <a href="J:\Pedro Viana\pratica 1_2a\cadastro.html">aqui</a>
+		<hr>
+		<h3>Passo a passo</h3>
+		<ol>
+			<li>Logar no sistema</li>
+			<li>Escolher os produtos que deseja comprar</li>
+			<li>Abrir seu carrinho de compras e informar a forma de pagamento</li>
+			<li>Informar seu endereço</li>
+			<li>Fazer a transação e esperar o seu produto</li>
+		</ol>
+		<hr>
+		<h2>PRODUTOS</h2>
+		<br>
+		<ul>
+			<div id="camisetas"><li>Camiseta</li></div>
+			<li>Calça</li>
+			<li>Kimonos</li>
+			<li>Uniformes do esquadrão de Demon Slayers</li>
+			<li>Meias</li>
+			<li>Bainhas</li>
+			<li>Vestidos</li>
+		</ul>
+		<hr>
+		<h2>Tamanhos e cores disponíveis</h2>
+		<dl>
+			<dt><h3>Camisetas</h3></dt>
+				<br>
+				<figure>
+					<img src="J:\Pedro Viana\pratica 1_2a\camisetas.jpg" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+					<li>PP, P, M, G, GG , XGG</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto, cinza </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+				<dt><h3>Calças</h3></dt>
+				<br>
+				<figure>
+					<img src="J:\Pedro Viana\pratica 1_2a\calças.jpg" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<br>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+					<li>PP, P, M, G, GG , XGG</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+				<dt><h3>Kimonos</h3></dt>
+				<br>
+				<figure>
+					<img src="J:\Pedro Viana\pratica 1_2a\kimonos.jpeg" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+					<li>PP, P, M, G, GG , XGG</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+				<dt><h3>Uniformes</h3></dt>
+				<br>
+				<figure>
+					<img src="J:\Pedro Viana\pratica 1_2a\Uniforme.png" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+				<li>PP, P, M, G, GG , XGG</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+				<dt><h3>Meias</h3></dt>
+				<br>
+				<figure>
+					<img src="J:/Pedro%20Viana/pratica 1_2a/Meias.jpg" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+					<li>36, 38, 40, 42, 44 , 46</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+				<dt><h3>Bainhas</h3></dt>
+				<br>
+				<figure>
+					<img src="J:/Pedro%20Viana/pratica 1_2a/Bainhas.jpg" alt="Teste" style="width:250px;height:auto">
+				</figure>
+				<dd><strong>Tamanhos</strong>
+				<ul>
+					<li>Machado, katana, Nichirins, Shurikens, Canivete , Espadões</li>
+				</ul>
+				<strong>Cores</strong>
+				<ul>
+					<li>Vermelho, azul, verde, amarelo, laranja, branco, preto </li>
+				</ul>
+				</dd>
+				<hr>
+				<hr>
+		</dl>
+		<h2>Relação de preços:</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th> Produto </th>
+					<th> Preço (Reais) </th>
+					<th> Preço (Ienes) </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Camisetas</td>
+					<td> R$ 50,00</td>
+					<td> ¥ 1247,88</td>
+				</tr>
+				<tr>
+					<td>Calças</td>
+					<td> R$ 70,00</td>
+					<td> ¥ 1747,03</td>
+				</tr>
+				<tr>
+					<td>Kimonos</td>
+					<td> R$ 200,00</td>
+					<td> ¥ 4991,50</td>
+				</tr>
+				<tr>
+					<td>Uniformes</td>
+					<td> R$ 600,00</td>
+					<td> ¥ 14974,51</td>
+				</tr>
+				<tr>
+					<td>Meias</td>
+					<td> R$ 30,00</td>
+					<td> ¥ 748,73</td>
+				</tr>
+				<tr>
+					<td>Bainhas</td>
+					<td> R$ 150,00</td>
+					<td> ¥ 3743,63</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+
+		<h2>Caso nos queira enviar uma peça acesse <a href="file:///E:/Pedro%20Viana/pratica%201_2a/Adicionar%20produtos.html"> aqui </a></h2>
+		<hr>
+		<h2>Contatos</h2>
+		<adress>
+			<a href="https://www.ifgoiano.edu.br/home/">(+55 62) 99912-5467</a> || <a href="https://www.ifgoiano.edu.br/home/">Atelie.Kamados@gmail.com</a>|| <a href="https://www.ifgoiano.edu.br/home/">@Atelie.Kamados</a>
+		</adress>
+		<br><br>
+		<strong>Ps: Caso queira mandar um corvo, mande ele ir para a Casa Kamado que ele irá saber o caminho</strong>
+	</body>
+</html>

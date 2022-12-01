@@ -1,0 +1,1101 @@
+/*--------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------ANIMAÇÕES------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+@keyframes inflar_camiseta{
+	from {z-index:0;width:50px;margin-top:18px;margin-left:763px;}
+	to {z-index:10;width:60px;margin-top:15px;margin-left:756px;}
+}
+
+@keyframes desinflar_camiseta{
+	from {z-index:10;width:60px;margin-top:15px;margin-left:756px;}
+	to {z-index:0;width:50px;margin-top:18px;margin-left:763px;}
+}
+
+@keyframes inflar_calca{
+	from {z-index:0;width:44px;margin-top:80px;margin-left:733px;}
+	to {z-index:10;width:54px;margin-top:77px;margin-left:731px;}
+}
+
+@keyframes desinflar_calca{
+	from {z-index:10;width:54px;margin-top:77px;margin-left:731px;}
+	to {z-index:0;width:44px;margin-top:80px;margin-left:733px;}
+}
+
+@keyframes inflar_kimono{
+	from {z-index:0;width:44px;margin-top:154px;margin-left:712px;}
+	to {z-index:10;width:59px;margin-top:151px;margin-left:705px;}
+}
+
+@keyframes desinflar_kimono{
+	from {z-index:10;width:59px;margin-top:151px;margin-left:705px;}
+	to {z-index:0;width:44px;margin-top:154px;margin-left:712px;}
+}
+
+@keyframes inflar_uniforme{
+	from {z-index:0;width:44px;margin-top:228px;margin-left:709px;}
+	to {z-index:10;width:57px;margin-top:225px;margin-left:704px;}
+}
+
+@keyframes desinflar_uniforme{
+	from {z-index:10;width:57px;margin-top:225px;margin-left:704px;}
+	to {z-index:0;width:44px;margin-top:228px;margin-left:709px;}
+}
+
+@keyframes inflar_meia{
+	from {z-index:0;width:44px;margin-top:300px;margin-left:732px;}
+	to {z-index:10;width:54px;margin-top:295px;margin-left:732px;}
+}
+
+@keyframes desinflar_meia{
+	from {z-index:10;width:54px;margin-top:295px;margin-left:732px;}
+	to {z-index:0;width:44px;margin-top:300px;margin-left:732px;}
+}
+
+@keyframes inflar_bainha{
+	from {z-index:0;width:44px;margin-top:365px;margin-left:765px;}
+	to {z-index:10;width:57px;margin-top:362px;margin-left:762px;}
+}
+
+@keyframes desinflar_bainha{
+	from {z-index:10;width:57px;margin-top:362px;margin-left:762px;}
+	to {z-index:0;width:44px;margin-top:365px;margin-left:765px;}
+}
+
+@keyframes inflar_moldura1{
+	from{width:70px;margin-left:753px;margin-top:5px;z-index:1;}
+	to{width:90px;margin-left:743px;margin-top:-5px;z-index:11;
+	}
+}
+
+@keyframes desinflar_moldura1{
+	from{width:90px;margin-left:743px;margin-top:-5px;z-index:11;}
+	to{width:70px;margin-left:753px;margin-top:5px;z-index:1;
+	}
+}
+
+@keyframes inflar_moldura2{
+	from{width:70px;margin-left:720px;margin-top:70px;z-index:1;}
+	to{width:90px;margin-left:710px;margin-top:60px;z-index:11;
+	}
+}
+
+@keyframes desinflar_moldura2{
+	from{width:90px;margin-left:710px;margin-top:60px;z-index:11;}
+	to{width:70px;margin-left:720px;margin-top:70px;z-index:1;
+	}
+}
+
+@keyframes inflar_moldura3{
+	from{z-index:1;width:70px;margin-top:140px;margin-left:699px;}
+	to{z-index:11;width:90px;margin-top:130px;margin-left:689px;}
+}
+
+@keyframes desinflar_moldura3{
+	from{z-index:11;width:90px;margin-top:130px;margin-left:689px;}
+	to{width:70px;margin-top:140px;z-index:1;margin-left:699px;}
+}
+
+@keyframes inflar_moldura4{
+	from{z-index:1;width:70px;margin-top:215px;margin-left:696px;}
+	to{z-index:11;width:90px;margin-top:205px;margin-left:686px;}
+}
+
+@keyframes desinflar_moldura4{
+	from{z-index:11;width:90px;margin-top:205px;margin-left:686px;}
+	to{width:70px;z-index:1;margin-top:215px;margin-left:696px;}
+}
+
+@keyframes inflar_moldura5{
+	from{z-index:1;width:70px;margin-top:285px;margin-left:720px;}
+	to{z-index:11;width:90px;margin-top:275px;margin-left:710px;}
+}
+
+@keyframes desinflar_moldura5{
+	from{z-index:11;width:90px;margin-top:275px;margin-left:710px;}
+	to{width:70px;z-index:1;margin-top:285px;margin-left:720px;}
+}
+
+@keyframes inflar_moldura6{
+	from{z-index:1;width:70px;margin-top:350px;margin-left:755px;}
+	to{z-index:11;width:90px;margin-top:340px;margin-left:745px;}
+}
+
+@keyframes desinflar_moldura6{
+	from{z-index:11;width:90px;margin-top:340px;margin-left:745px;}
+	to{width:70px;z-index:1;margin-top:350px;margin-left:755px;}
+}
+
+@keyframes inflar_submeter{
+	from{width:100px;}
+	to{width:150px;}
+}
+
+#shinobu{
+	position:absolute;
+	width:415px;
+	margin-top:-536px;
+	margin-left:900px;
+}
+
+label{
+	margin-left:30px;
+}
+
+#submeter_cadastro{
+	position:absolute;
+	height:40px;
+	width:100px;
+	border-radius:5px;
+	background-color:#a0e286;
+	margin-top:-55px;
+	margin-left:50px;
+	cursor:pointer;
+}
+
+#submeter_cadastro:hover{
+	background-color:#548b3e
+}
+
+.input_cadastro{
+	margin-left:5px;
+	border-radius:5px;
+}
+
+.hr_cadastro{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#video_kimetsu{
+	position:absolute;
+	top:32%;
+	right:5%;
+	width:400px;
+	box-shadow: 7px 7px #00000071;
+}
+
+#cenario_cadastro{
+	background:url('as_flores-la.jpg');
+	background-size:120%;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+#cadastro_h2{
+	color:black;
+	text-align:center;
+}
+
+#area_de_cadastro{
+	width:720px;
+	background-color:grey;
+	margin-left:20px;
+	margin-right:550px;
+	border-radius:20px;
+	border-style:solid;
+	border-color:black;
+	box-shadow: #707070;
+	margin:10px;
+	box-shadow: 8px 8px #0000006c;
+}
+
+#zenitsu{
+	position:absolute;
+	height:500px;
+	margin-left:50px;
+}
+
+#label_login, #label_senha{
+	color:white;
+}
+
+#input-1, #input-2{
+	background-color:rgb(41, 24, 14);
+	color:white;
+}
+
+.submeter{
+	font-size: large;
+	width:100px;
+	height:30px;
+	color:rgb(0, 0, 0);
+	background-color:#707070;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+.submeter:hover{
+	background-color:#333333;
+}
+
+#login_usuarios_h2{
+	color:white;
+}
+
+#local_inputs_login{
+	text-align:center;
+	background-color:#0c0200;
+	border-color:black;
+	height: 230px;
+	margin-left:650px;
+	margin-right:20px;
+	border-radius:25px;
+	box-shadow: 7px 7px #00000073;
+}
+
+#div_login{
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:px;
+	height:500px;
+	background:url('mansao.jpg');
+	background-size:100%;
+}
+
+#entre_em_contato{
+	color:grey;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#seta{
+	position:absolute;
+	width:60px;
+	margin-left:900px;
+	margin-top:-60px;
+	border-color:#832727;
+	border-style:solid;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+#creditos{
+	margin-top:45px;
+	margin-left:300px;
+	color:#707070;
+}
+
+.hr_baixo{
+	margin-left:300px;
+}
+
+#links_navegação_baixo{
+	float:left;
+}
+
+#fieldset_contatos{
+	margin-left:300px;
+	margin-top:-50px;
+	line-height:0px;
+}
+
+.imagem_contato img{
+	width:40px;
+}
+
+.imagem_contato{
+	float:left;
+	margin-left:10px;
+	list-style-type: none;
+}
+
+#h2_navegacao{
+	margin-top:30px;
+	margin-left:50px;
+	color:grey;
+}
+
+.link_baixo a{
+	line-height:30px;
+	color:grey;
+	margin-left:10px;
+}
+
+.link_baixo{
+	color:grey;
+	margin-left:30px;
+}
+
+#relação_de_preços{
+	margin-top:40px;
+	margin-left: 147px;
+	position:absolute;
+	z-index:1;
+	color:black;
+	background:white;
+	border-radius:10px;
+	border-color:yellow;
+	border-style:solid;
+	width:300px;
+	text-align:center;
+}
+
+#terceira_div{
+	background: url('cidade.png');
+	background-size:50%;
+	margin-top:0px;
+	margin-left:-10px;
+	margin-right:-10px;
+	height:300px;
+}
+
+#borda_leds{
+	position:absolute;
+	height:300px;
+}
+
+#lugar_tabela{
+	background: url('fundo_tabela.png');
+	margin-right:650px;
+	background-size:100%;
+	height:300px;
+}
+
+#inosuke{
+	position:absolute;
+	height:300px;
+	margin-top:0px;
+	margin-left:750px;
+}
+
+#nome_produto{
+	position:absolute;
+	color: rgb(255, 255, 255);
+	text-align:center;
+	margin-left:950px;
+	margin-bottom:0px;
+	font-size:x-large;
+	padding-top:30px;
+	line-height:25px;
+	background: url('mancha\ de\ tinta.png') no-repeat;
+	background-size:100%;
+	width:300px;
+	height:50px;
+	z-index:1;
+}
+
+#relacao_de_tamanhos{
+	position:absolute;
+	color:white;
+	width:450px;
+	height:100px;
+	background: url('mancha\ de\ tinta.png');
+	background-size:100%;
+	margin-left:865px;
+	margin-top:-120px;
+}
+
+#relacao_de_tamanhos p{
+	margin-top:30px;
+	margin-left:60px;
+	margin-right:40px;
+}
+
+#Camisetas{
+	height:200px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:190px;
+	border-radius:10px;
+	border-style:solid;
+	display:block;
+}
+
+#Calças{
+	height:200px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:210px;
+	border-radius:10px;
+	border-style:solid;
+	display:none;
+}
+
+#Kimonos{
+	height:200px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:190px;
+	border-radius:10px;
+	border-style:solid;
+	display:none;
+}
+
+#Uniformes{
+	height:200px;
+	background-color:white;
+	position:absolute;
+	margin-top:90px;
+	margin-left:190px;
+	border-radius:10px;
+	border-style:solid;
+	display:none;
+}
+
+#Meias{
+	height:200px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:190px;
+	border-radius:10px;
+	border-style:solid;
+	display:none;
+}
+
+#Bainhas{
+	height:200px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:190px;
+	border-radius:10px;
+	border-style:solid;
+	display:none;
+}
+
+
+#camiseta_pequena{
+	width:50px;
+	z-index:0;
+	position:absolute;
+	margin-top:18px;
+	margin-left:763px;
+	animation-name:'';
+	animation-duration:'';
+}
+
+#calca_pequena{
+	width:44px;
+	z-index:0;
+	position:absolute;
+	margin-top:80px;
+	margin-left:733px;
+}
+
+#kimono_pequeno{
+	width:44px;
+	z-index:0;
+	position:absolute;
+	margin-top:154px;
+	margin-left:712px;
+}
+
+#uniforme_pequeno{
+	background-color:white;
+	width:44px;
+	z-index:0;
+	position:absolute;
+	margin-top:228px;
+	margin-left:709px;
+}
+
+#meia_pequena{
+	width:44px;
+	z-index:0;
+	position:absolute;
+	margin-top:300px;
+	margin-left:732px;
+}
+
+#bainha_pequena{
+	width:44px;
+	z-index:0;
+	position:absolute;
+	margin-top:365px;
+	margin-left:765px;
+}
+
+#gradiente{
+	position:absolute;
+	width:99vw;
+	z-index:0;
+}
+
+#nezuko{
+	position:absolute;
+	margin-top:162px;
+	margin-left:50px;
+}
+
+
+#titulo_produtos{
+	position:absolute;
+	margin-top:10px;
+	margin-left:200px;
+	text-align:center;
+	line-height:106.6px;
+	font-size: xx-large;
+	width:266.6px;
+	height:106.6px;
+	border-style:solid;
+	border-color:rgb(168, 0, 0);
+	font-family:fantasy;
+	background-image:url('borda_japonesa.png');
+	background-color:rgba(255, 255, 255, 0.726);
+	background-size:100%;
+}
+
+#div_produto1{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:760px;
+	margin-top:10px;
+}
+
+#moldura_chinesa1{
+	position:absolute;
+	width:70px;
+	margin-left:753px;
+	margin-top:5px;
+	z-index:1;
+	cursor:pointer;
+}
+#moldura_chinesa2{
+	position:absolute;
+	width:70px;
+	margin-left:720px;
+	margin-top:70px;
+	z-index:1;
+	cursor:pointer;
+}
+#moldura_chinesa3{
+	position:absolute;
+	width:70px;
+	margin-left:699px;
+	margin-top:140px;
+	z-index:1;
+	cursor:pointer;
+}
+#moldura_chinesa4{
+	position:absolute;
+	width:70px;
+	margin-left:696px;
+	margin-top:215px;
+	z-index:1;
+	cursor:pointer;
+}
+#moldura_chinesa5{
+	position:absolute;
+	width:70px;
+	margin-left:720px;
+	margin-top:285px;
+	z-index:1;
+	cursor:pointer;
+}
+#moldura_chinesa6{
+	position:absolute;
+	width:70px;
+	margin-left:755px;
+	margin-top:350px;
+	z-index:1;
+	cursor:pointer;
+}
+
+#div_produto2{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:720px;
+	margin-top:75px;
+}
+#div_produto3{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:700px;
+	margin-top:145px;
+}
+#div_produto4{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:700px;
+	margin-top:215px;
+}
+#div_produto5{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:720px;
+	margin-top:290px;
+}
+#div_produto6{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	background-color:#ffffff;
+	margin-left:760px;
+	margin-top:350px;
+}
+
+	#segunda_div{
+		margin-top:-10px;
+		margin-left:-10px;
+		margin-right:-10px;
+		background: url(porta_japonesa.jpg);
+	}	
+	
+	body{
+		background-color:rgb(0, 0, 0);
+	}
+
+	#mostruario{
+		height:420px;
+		background: url('madeira.jpg');
+		margin-right:0px;
+		margin-left:800px;
+		border-top-left-radius: 1000px;
+		border-bottom-left-radius: 1000px;
+	}
+	
+	#texto_div{
+		padding-left:60px;
+	}
+
+	#Descrição{
+		background: url('Efeito\ de\ rasgo.png');
+		background-size:110%;
+		padding-right:200px;
+		height:270px;
+		text-align:center;
+		width:600px;
+	}
+	
+	#primeira_div{
+		background: no-repeat url('Padrão_onda.jpg');
+		margin-top:0;
+		background-size:99vw;
+		color:white;
+		height:270px;
+		margin-left:-10px;
+		margin-right:-10px;
+		margin-bottom:-10px;
+	}
+
+	#tanjiro{
+		position:absolute;
+		height:260px;
+		float:bottom;
+		text-align:right;
+		margin-left:850px;
+	}
+
+	 [id|="plano"]{
+	 	background: url("mancha%20de%20tinta.png") no-repeat center;
+	 	background-size: 50%;
+		vertical-align: middle;
+		height:100px;
+	 }
+
+	.links-produtos{
+		display: none;
+		position: absolute;
+		background-color: #ffffff;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.lista-navegação:hover .links-produtos{
+		display: block;
+	}
+
+	.links-produtos a:hover{
+		background-color: #f1f1f1;
+	}
+
+
+	li.lista-navegação{
+		display: inline-block;
+	}
+
+	ul.lista-produtos{
+		list-style-type: none;
+		padding: 0px;
+	}
+
+	li.links-produtos{
+		display: none;
+		position: absolute;
+		min-width: 200px;
+		background-color: white;
+		z-index: 1;
+	}
+
+	.links-produtos a{
+		display:  inline-block;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.links-produtos a:hover{
+		background-color: #f1f1f1;
+	}
+
+	#Produtos:hover .links-produtos{
+		display: block;
+		float: initial;
+	}
+	
+	[id$="menu"]{
+		color:white;
+		background: black center no-repeat;
+		height:50px;
+		line-height:50px;
+		text-align:left;
+		text-indent:100px;
+	}
+
+
+	li.lista-navegação{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		background-color:black;
+	}
+
+	
+	li.lista-navegação{
+		float:left;
+		color:white;
+	}
+
+	.lista-navegação a:link{
+		display:block;
+		text-align:center;
+		padding:0px 16px;
+		text-decoration: none;
+		text-indent: 0%;
+	}
+
+	a.lista-navegação{
+		color: white;
+	}
+
+	a.item-produtos{
+		color: white;
+	}
+
+	.lista-navegação a:hover {
+		background-color:gray;
+		color:black;
+	}
+
+	[id~="Titulo"]{
+		background: url('cenario_kimetsu.png') center;
+		border-color:rgb(0,0,0);
+		display:inline-block;
+		width:99vw;
+		margin-top:0px;
+		margin-left:-10px;
+		margin-top:-10px;
+	}			
+
+	[class*="Cabe"]{
+		padding-top:5px;
+		text-align: center;
+		font-family:Monospace;
+		color:aliceblue;
+	}
+
+	hr{
+		margin-left:-10px;
+		margin-right:-10px;
+		color:#000000;
+		border-color:#333333;
+	}
+
+	#img_carrinho{
+		width:45px;
+		margin-right:50px;
+	}
+
+	.tabela{
+		position:absolute;
+		margin-left:150px;
+		margin-top:90px;
+		background-color:black;
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		z-index:1;
+	}
+
+	.coiso{
+		background-color: white;
+	}
+
+	.cabeça{
+		background-color: rgb(250,255,230);
+	}
+
+	*{
+		font-family:Sans-serif;
+	}
+
+	#img_carrinho{
+		margin-left: 400px;
+	}
+
+	#div_adicionar_produtos{
+		width:720px;
+		background-color:grey;
+		margin-left:20px;
+		margin-right:550px;
+		border-radius:20px;
+		border-style:solid;
+		border-color:black;
+		box-shadow: #707070;
+		margin:20px;
+		box-shadow: 7px 7px #00000080;
+	}
+
+	#descricao_produto{
+		margin-left:5px;
+		margin-top:10px;
+		resize: none;
+		width:700px;
+	}
+
+	.checkbox_cadastro{
+		margin-left:30px;
+		margin-right:-10px;
+	}
+
+	#submeter_produto{
+		height:40px;
+		width:100px;
+		border-radius:5px;
+		background-color:#a0e286;
+		margin-top:-3px;
+		margin-left:25px;
+		margin-bottom:5px;
+		cursor:pointer;
+	}
+
+	#submeter_produto:hover{
+		background-color:#548b3e
+	}
+
+	#resetar_produto{
+		height:40px;
+		width:100px;
+		border-radius:5px;
+		background-color:#9b9b9b;
+		margin-top:-3px;
+		margin-left:25px;
+		margin-bottom:5px;
+		cursor:pointer;
+	}
+
+	#resetar_produto:hover{
+		background-color:#2c2c2c;
+		color:white;
+	}
+
+	#cenario_produtos{
+		margin:-5px;
+		background-image: url('cenario_kimetsu2.jpg');
+		background-size: 125%;
+	}
+
+	#tomioka{
+		position:absolute;
+		width:550px;
+		margin-top:-785px;
+		margin-left:755px;
+	}
+
+	#div_lista_compra{
+		background-color:rgb(255, 255, 87);
+		margin-left:10px;
+		width:500px;
+		float:left;
+		border: solid black 5px;
+		box-shadow: 5px 5px rgba(0, 0, 0, 0.466);
+	}
+
+	#formulário_de_compra{
+		background-color:grey;
+		margin-top:-20px;
+		margin-left:600px;
+		width:680px;
+		border-radius:10px;
+		border: solid black 5px;
+		padding-bottom:0;
+		box-shadow: 7px 7px #0000007c;
+	}
+
+	.titulo_compras{
+		text-align:center;
+	}
+
+	#mostruario_carrinho{
+		background-color:white;
+		text-align:center;
+		height: 200px;
+	}
+
+	#produto{
+		width:200px;
+		position:absolute;
+		margin-top:-20px;
+		margin-left:450px;
+	}
+
+	#label_produto{
+		position:absolute;
+		margin-left:370px;
+		margin-top:-20px;
+	}
+
+	#teste{
+		margin-left:-20px;
+	}
+
+	#nome_do_produto{
+		text-align:center;
+	}
+
+	#plano_de_fundo_carrinho{
+		background-image: url(roupa_nezuko.jpg);
+		background-size:50%;
+		margin-left:-10px;
+		margin-right:-10x;
+	}
+
+	#titulo_escolha{
+		margin-left:10px;
+	}
+
+	#adicionar_ao_carrinho{
+		width:200px;
+		height:50px;
+		background-color:rgb(0, 195, 255);
+		cursor:pointer;
+		margin-left:10px;
+		border:solid black 1px;
+		margin-bottom:10px;
+		font-size:large;
+		border-radius:5px;
+	}
+
+	#adicionar_ao_carrinho:hover{
+		background-color:rgb(0, 70, 92);
+		color:white;
+	}
+
+	#finalizar_compra{
+		width:200px;
+		height:50px;
+		background-color:rgb(36, 155, 0);
+		cursor:pointer;
+		margin-left:10px;
+		border:solid black 1px;
+		margin-bottom:10px;
+		font-size:large;
+		border-radius:5px;
+	}
+
+	#finalizar_compra:hover{
+		background-color:rgb(17, 71, 0);
+		color:white;
+	}
+
+	#produto_carrinho{
+		height:200px;
+	}
+
+	#informe_preço, #informe_tamanho, #informe_quantidade{
+		margin-left:10px;
+	}
+
+	.tamanho_produto{
+		position:absolute;
+		float:right;
+	}
+
+	.nome_produto{
+		margin-left:10px;
+	}
+
+	.quantidade_produto{
+		margin-left:20px;
+	}
+
+	.remover_um_produto{
+		float:left;
+		margin-top: -70px;
+		margin-left:350px;
+		width:25px;
+		height:25px;
+		border-radius:25px;
+		line-height:12.5px;
+		background-color:yellow;
+		color:black;
+	}
+
+	.remover_todos_produtos{
+		float:left;
+		margin-top: -70px;
+		margin-left:400px;
+		width:25px;
+		height:25px;
+		border-radius:25px;
+		line-height:20px;
+		color:white;
+		background-color:red;
+	}
+
+	#fundo_pagamento{
+		background-image: url(roupa_nezuko.jpg);
+		background-size:50%;
+		margin-left:-10px;
+		margin-right:-10x;
+	}
+
+	#pagamento{
+		width:720px;
+		margin-left:300px;
+		background-color:grey;
+		border-radius:20px;
+		border-style:solid;
+		border-color:black;
+		box-shadow: #707070;
+		box-shadow: 5px 5px #0000007e;
+	}
+
+	#finalizar_compra_vdd{
+		width:200px;
+		height:50px;
+		background-color:rgb(36, 155, 0);
+		cursor:pointer;
+		margin-left:250px;
+		border:solid black 1px;
+		margin-bottom:10px;
+		font-size:large;
+		border-radius:5px;
+	}
+
+	#finalizar_compra_vdd:hover{
+		background-color:rgb(17, 71, 0);
+		color:white;
+	}

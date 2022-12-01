@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Tela de cadastro </title>
+		<link rel="stylesheet" href="estilo-das-páginas.css">
+		<link rel="shortcut icon" href="Carrinho.png" type="icon">
+	</head>
+	<body>
+		<script type="text/javascript" src="Comandos_das_páginas.js"></script>
+		<div id = "Titulo">
+			<div id = plano-de-fundo>
+				<h1 class = "Cabeçalho">Ateliê dos Kamados</h1>
+				<h2 class = "Cabeçalho">As melhores roupas e irmãs da região</h2>
+			</div>
+			<div id="caixa-de-menu">
+				<ul class="lista-navegação">
+					<li class="lista-navegação"><a class="lista-navegação" href="index.html">Home</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="cadastro.html">Cadastro</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Tela de login.html">Login</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Adicionar produtos.html">Vender Produtos</a></li>
+					<a href="carrinho.html"><img onmouseover = "carrinho_nezuko(document.getElementById('img_carrinho'));" onmouseout = "carrinho_normal(document.getElementById('img_carrinho'))" id = "img_carrinho" src="Carrinho.png" align="right"></a>
+				</ul>
+			</div>
+		</div>
+		<div id="cenario_cadastro">
+			<br>
+		<div id="area_de_cadastro">
+			<hr class="hr_cadastro">
+			<h2 id="cadastro_h2">Cadastro de clientes</h2>
+			<hr class="hr_cadastro">
+			<form action="index.html">
+				<label for="nome_da_pessoa"><b>Informe o seu nome:</b></label><input class="input_cadastro" type="text" name="nome_da_pessoa"><br><br>
+				<label for="genero"><b>Seu gênero:</b></label> 
+				<select class="input_cadastro" name="genero">
+					<option value="nada" selected disabled> ------------</option>
+					<option value="masculino"> Masculino </option>
+					<option value="feminino"> Feminino </option>
+					<option value="nao_bin"> Não-binário </option>
+					<option value="Demon slayer"> Demon Slayer </option>
+					<option value="Oni"> Oni </option>
+					<option value="Nulo"> Prefiro não dizer </option>
+				</select>
+				<br>
+				<br>
+				<label for="telefone"><strong>Telefone: </strong></label><input class="input_cadastro" type="text" name="telefone" value="+55 "><br><br>
+				<label for="cpf"><strong>CPF:</strong></label><input class="input_cadastro" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Formato inválido" maxlength="14">
+				<br>
+				<br>
+				<label for="data_nasc"><strong>Data de nascimento:</strong></label><input class="input_cadastro" type="date" name="data_nasc" min="1990-01-01">
+				<br>
+				<br>
+				<label for="email"><strong>Endereço de e-mail:</strong></label> <input class="input_cadastro" type="email" name="email">
+				<br>
+				<br>
+				<br>
+				<label for="lista_coisas"><strong>Informe os seus bens declarados:</strong></label><br>
+					<ol name="lista_coisas">
+						<input class="input_cadastro" type="checkbox" name="carro" value="carro"> <label for="carro">Carro<br></label>
+						<input class="input_cadastro" type="checkbox" name="moto" value="moto"> <label for="moto">Moto <br></label>
+						<input class="input_cadastro" type="checkbox" name="casa" value="casa"> <label for="casa">Casa <br></label>
+						<input class="input_cadastro" type="checkbox" name="apartamento" value="apartamento"> <label for="apartamento">Apartamento <br></label>
+						<input class="input_cadastro" type="checkbox" name="nichirin" value="Nichirin"> <label for="nichirin">Nichirin <br></label>
+						<input class="input_cadastro" type="checkbox" name="cabana" value="cabana"> <label for="cabana">Cabana <br></label>
+					</ol>
+				<br>
+				<br>
+				<label for="senha"><Strong>Defina a sua senha: </Strong></label><input class="input_cadastro" type="password" name="senha" id="senha"><br><br>
+				<label for="conf_senha"><strong>Confirme a sua senha: </strong> </label><input class="input_cadastro" type="password" name="conf_senha" id="conf_senha">
+				<br>
+				<br>
+				<hr class="hr_cadastro">
+				<label for="myfile"><strong>Deseja trabalhar na loja? Submeta aqui o seu currículo:</strong></label><br><br>
+				<input class="input_cadastro" type="file" name="myfile">
+				<hr class="hr_cadastro">
+				<br>
+				<br>
+				<br>
+				</div>
+				<input id="submeter_cadastro" type="submit" value="Submeter">
+			</form>
+			<img id="shinobu" src="Shinobu_anime.webp">
+			<br>
+			<br>
+			<video id="video_kimetsu" src="Demon Slayer - Opening.mp4"  frameborder="1" autoplay="1" muted="1" loop="1"></video>
+		</div>
+		<hr>
+		<hr>
+		<hr>
+		<div id="parte_de_baixo">
+			<h2 id="h2_navegacao">Navegação</h2>
+			<ul id="links_navegação_baixo">
+				<li class="link_baixo"><a href="index.html">Home</a></li>
+				<li class="link_baixo"><a href="cadastro.html">Cadastro</a></li>
+				<li class="link_baixo"><a href="Tela de login.html">Login</a></li>
+				<li class="link_baixo"><a href="Adicionar produtos.html">Venda de Produtos</a></li>
+				<li class="link_baixo"><a href="carrinho.html">Carrinho</a></li>
+			</ul>
+		<fieldset id="fieldset_contatos">
+			<H2 id="entre_em_contato">Entre em contato conosco!</H2>
+			<ul id="Contatos">
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Instagram.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Whatsapp.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Email.png"></a></li>
+			</ul>
+		</fieldset>
+		</div>
+		<hr class="hr_baixo">
+		<hr class="hr_baixo">
+		<h3 id="creditos"><u>Feito e estilizado por: Pedro Viana de Castilhos</u></h3>
+		<a href="#Titulo"><img id="seta" src="seta.png"></a>
+		<br>
+		<br>
+		<hr>
+		<hr>
+	</body>
+</html>

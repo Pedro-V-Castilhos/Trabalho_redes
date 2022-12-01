@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Carrinho de compras</title>
+		<link rel="shortcut icon" href="Carrinho.png" type="icon">
+		<link rel="stylesheet" href="estilo-das-páginas.css">
+	</head>
+	<body>
+		<div id = "Titulo">
+			<div id = plano-de-fundo>
+				<h1 class = "Cabeçalho">Ateliê dos Kamados</h1>
+				<h2 class = "Cabeçalho">As melhores roupas e irmãs da região</h2>
+			</div>
+			<div id="caixa-de-menu">
+				<ul class="lista-navegação">
+					<li class="lista-navegação"><a class="lista-navegação" href="index.html">Home</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="cadastro.html">Cadastro</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Tela%20de%20login.html">Login</a></li>
+					<li class="lista-navegação"><a class="lista-navegação" href="Adicionar%20produtos.html">Vender Produtos</a></li>
+					<a href="carrinho.html"><img id = "img_carrinho" src="Carrinho_Nezuko.png" align="right"></a>
+				</ul>
+			</div>
+		</div>
+		<div id="plano_de_fundo_carrinho">
+			<br>
+			<br>
+			<div id="div_lista_compra">
+				---------------------------------------------------------------------------------------------<br>
+				<h2 class="titulo_compras">Lista de Compras</h2>
+				---------------------------------------------------------------------------------------------<br>
+				<br>
+				<div>
+					<ol id="listinha">
+
+					</ol>
+				</div>
+				---------------------------------------------------------------------------------------------<br>
+				<h2 id="total">Total -------------------- R$ 0,00</h2>
+			</div>
+			<div id="formulário_de_compra">
+				<hr class="hr_cadastro">
+				<h2 class="titulo_compras">Carrinho de Compras</h2>
+				<hr class="hr_cadastro">
+				<h3 id="titulo_escolha">Escoha seu produto:</h3><br>
+				<label for="teste"><b>Escolha o produto: </b></label>
+				<input id="produto_selecionado" list="teste" onchange="selecionou_produto();">
+				<datalist id="teste">
+					<option label="Camiseta">Camiseta Polo</option>
+					<option label="Camiseta">Camiseta Regata</option>
+					<option label="Camiseta">Camiseta Gola-O</option>
+					<option label="Camiseta">Camiseta Gola-V</option>
+					<option label="Calça">Calça Jeans</option>
+					<option label="Calça">Calça Legging</option>
+					<option label="Calça">Calça Tactel</option>
+					<option label="Kimonos">Kimono Kurotomesode</option>
+					<option label="Kimonos">Kimono Irotomesode</option>
+					<option label="Kimonos">Kimono Furisode</option>
+					<option label="Kimonos">Kimono Houmongi</option>
+					<option label="Kimonos">Kimono Tsukesage</option>
+					<option label="Kimonos">Kimono Iromuji</option>
+					<option label="Kimonos">Kimono Komon</option>
+					<option label="Kimonos">Kimono Tomesode</option>
+					<option label="Kimonos">Kimono Yukata</option>
+					<option label="Uniformes">Uniforme tradicional - Marrom</option>
+					<option label="Uniformes">Uniforme tradicional - Azul marinho</option>
+					<option label="Uniformes">Uniforme tradicional - Preto</option>
+					<option label="Meias">Meia cano baixo</option>
+					<option label="Meias">Meia cano médio</option>
+					<option label="Meias">Meia cano alto</option>
+					<option label="Bainhas">Bainha de machado</option>
+					<option label="Bainhas">Bainha de katana</option>
+					<option label="Bainhas">Bainha de Nichirin</option>
+					<option label="Bainhas">Bainha de shuriken</option>
+					<option label="Bainhas">Bainha de canivete</option>
+					<option label="Bainhas">Bainha de espadão</option>
+				</datalist><br>
+				<label id="label_produto" for="produto"><b>Tamanho: </b></label>
+				<select id="produto" onChange="valor = selecionou_tamanho();" disabled="true">
+					<option selected disabled>--------------</option>
+					<optgroup label="Tamanho PP">
+						<option value="Camiseta">Camiseta</option>
+						<option value="Calça">Calça</option>
+						<option value="Kimonos">Kimonos</option>
+					</optgroup>
+					<optgroup label="Tamanho P">
+						<option value="Camiseta">Camiseta</option>
+						<option value="Calça">Calça</option>
+						<option value="Kimonos">Kimonos</option>
+						<option value="Uniformes">Uniformes</option>
+					</optgroup>
+					<optgroup label="Tamanho M">
+						<option value="Camiseta">Camiseta</option>
+						<option value="Calça">Calça</option>
+						<option value="Kimonos">Kimonos</option>
+						<option value="Uniformes">Uniformes</option>
+					</optgroup>
+					<optgroup label="Tamanho G">
+						<option value="Camiseta">Camiseta</option>
+						<option value="Calça">Calça</option>
+						<option value="Kimonos">Kimonos</option>
+						<option value="Uniformes">Uniformes</option>
+					</optgroup>
+					<optgroup label="Tamanho GG">
+						<option value="Camiseta">Camiseta</option>
+						<option value="Calça">Calça</option>
+						<option value="Uniformes">Uniformes</option>
+					</optgroup>
+					<optgroup label="Tamanhos de meias">
+						<option value="Meias">Meias 40-46</option>
+						<option value="Meias">Meias 32-38</option>
+						<option value="Meias">Meias 24-30</option>
+					</optgroup>
+					<optgroup label="Bainha">
+						<option value="Bainhas">Bainhas</option>
+					</optgroup>
+				</select><br><br>
+				<hr class="hr_cadastro">
+				<div id="mostruario_carrinho">
+					<img id="produto_carrinho" src="">
+				</div>
+				<hr class="hr_cadastro">
+				<h3 id="nome_do_produto">----------- -----------</h3>
+				<h4 id="informe_preço">Preço unitário: </h4>
+				<h4 id="informe_tamanho">Tamanho: </h4>
+				<h4 id="informe_quantidade">Quantidade: <input type="number" id="quantidade" min="0"></h4>
+				<hr class="hr_cadastro">
+				<form action="pagina_pagamento.html">
+					<input id="adicionar_ao_carrinho" type="button" value="Adicionar ao carrinho" onclick="ad_carrinho();">
+					<input id="finalizar_compra" type="button" value="Finalizar compra" onclick="localStorage.setItem('Total', var_soma); window.location.href='pagina_pagamento.html'">
+				</form>
+			</div>
+			<br>
+		</div>
+		<hr>
+		<hr>
+		<div id="parte_de_baixo">
+			<h2 id="h2_navegacao">Navegação</h2>
+			<ul id="links_navegação_baixo">
+				<li class="link_baixo"><a href="index.html">Home</a></li>
+				<li class="link_baixo"><a href="cadastro.html">Cadastro</a></li>
+				<li class="link_baixo"><a href="Tela de login.html">Login</a></li>
+				<li class="link_baixo"><a href="Adicionar produtos.html">Venda de Produtos</a></li>
+				<li class="link_baixo"><a href="carrinho.html">Carrinho</a></li>
+			</ul>
+		<fieldset id="fieldset_contatos">
+		<H2 id="entre_em_contato">Entre em contato conosco!</H2>
+			<ul id="Contatos">
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Instagram.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Whatsapp.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Email.png"></a></li>
+			</ul>
+		</fieldset>
+		</div>
+		<hr class="hr_baixo">
+		<hr class="hr_baixo">
+		<h3 id="creditos"><u>Feito e estilizado por: Pedro Viana de Castilhos</u></h3>
+		<a href="#Titulo"><img id="seta" src="seta.png"></a>
+		<br>
+		<br>
+		<hr>
+		<hr>
+		<script src="Comandos_das_páginas.js"></script>
+	</body>
+</html>

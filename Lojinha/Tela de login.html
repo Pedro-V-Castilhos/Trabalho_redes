@@ -1,0 +1,77 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tela de login</title>
+        <link rel="shortcut icon" href="logo.png.opdownload" type="icon">
+        <link rel="stylesheet" href="estilo-das-páginas.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="Comandos_das_páginas.js"></script>
+        <div id = "Titulo">
+            <div id = plano-de-fundo>
+                <h1 class = "Cabeçalho">Ateliê dos Kamados</h1>
+                <h2 class = "Cabeçalho">As melhores roupas e irmãs da região</h2>
+            </div>
+            <div id="caixa-de-menu">
+                <ul class="lista-navegação">
+                    <li class="lista-navegação"><a class="lista-navegação" href="index.html">Home</a></li>
+                    <li class="lista-navegação"><a class="lista-navegação" href="cadastro.html">Cadastro</a></li>
+                    <li class="lista-navegação"><a class="lista-navegação" href="Tela de login.html">Login</a></li>
+                    <li class="lista-navegação"><a class="lista-navegação" href="Adicionar produtos.html">Vender Produtos</a></li>
+                <a href="carrinho.html"><img onmouseover = "carrinho_nezuko(document.getElementById('img_carrinho'));" onmouseout = "carrinho_normal(document.getElementById('img_carrinho'))" id = "img_carrinho" src="Carrinho.png" align="right"></a>
+                </ul>
+            </div>
+        </div>
+        <div id="div_login">
+            <img id="zenitsu" src="Zenitsu.png">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <fieldset id="local_inputs_login">
+                <h1 id="login_usuarios_h2">Login de usuários</h1>
+                <br>
+                <form action="index.html" style="text-align: center;">
+                    <label for="input-1" id="label_login"><b>Login: </b></label>
+                    <input id = "input-1" type="text" name="usuário"><br><br>
+                    <label for="input-2" id="label_senha"><b>Senha: </b></label>
+                    <input id="input-2" type="password" name="senha"><br><br>
+                    <input class="submeter" type="submit" value="Login">
+                </form>
+            </fieldset>
+            <br>
+            <br>  
+        </div>
+        <hr>
+        <hr>
+        <div id="parte_de_baixo">
+            <h2 id="h2_navegacao">Navegação</h2>
+            <ul id="links_navegação_baixo">
+                <li class="link_baixo"><a href="index.html">Home</a></li>
+                <li class="link_baixo"><a href="cadastro.html">Cadastro</a></li>
+                <li class="link_baixo"><a href="Tela de login.html">Login</a></li>
+                <li class="link_baixo"><a href="Adicionar produtos.html">Venda de Produtos</a></li>
+                <li class="link_baixo"><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+            <fieldset id="fieldset_contatos">
+                <H2 id="entre_em_contato">Entre em contato conosco!</H2>
+                <ul id="Contatos">
+                    <li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Instagram.png"></a></li>
+                    <li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Whatsapp.png"></a></li>
+                    <li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Email.png"></a></li>
+                </ul>
+            </fieldset>
+        </div>
+        <hr class="hr_baixo">
+        <hr class="hr_baixo">
+        <h3 id="creditos"><u>Feito e estilizado por: Pedro Viana de Castilhos</u></h3>
+        <a href="#Titulo"><img id="seta" src="seta.png"></a>
+        <br>
+        <br>
+        <hr>
+        <hr>
+    </body>
+</html>

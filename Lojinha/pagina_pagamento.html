@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Carrinho.png" type="icon">
+		<link rel="stylesheet" href="estilo-das-páginas.css">
+        <title>Pagamento</title>
+    </head>
+    <body>
+    <div id = "Titulo">
+        <div id = plano-de-fundo>
+            <h1 class = "Cabeçalho">Ateliê dos Kamados</h1>
+            <h2 class = "Cabeçalho">As melhores roupas e irmãs da região</h2>
+        </div>
+        <div id="caixa-de-menu">
+            <ul class="lista-navegação">
+                <li class="lista-navegação"><a class="lista-navegação" href="index.html">Home</a></li>
+                <li class="lista-navegação"><a class="lista-navegação" href="cadastro.html">Cadastro</a></li>
+                <li class="lista-navegação"><a class="lista-navegação" href="Tela%20de%20login.html">Login</a></li>
+                <li class="lista-navegação"><a class="lista-navegação" href="Adicionar%20produtos.html">Vender Produtos</a></li>
+                <a href="carrinho.html"><img id = "img_carrinho" src="Carrinho_Nezuko.png" align="right"></a>
+            </ul>
+        </div>
+    </div>
+    <div id="fundo_pagamento">
+        <br><br>
+        <div id="pagamento">
+            <hr class="hr_cadastro">
+			<h2 id="cadastro_h2">Pagamento</h2>
+			<hr class="hr_cadastro">
+            <hr class="hr_cadastro">
+			<h3 id="a"></h3>
+			<hr class="hr_cadastro">
+            <br>
+            <label for="genero"><b>Forma de pagamento: </b></label> 
+            <select class="input_cadastro" name="genero">
+                <option value="nada" selected disabled> ------------ </option>
+                <option value="credito"> Cartão de Crédito</option>
+                <option value="debito"> Cartão de Débito </option>
+                <option value="cheque"> Cheque pré-datado </option>
+                <option value="pix"> PIX </option>
+            </select>
+            <br>
+            <br>
+            <label for="senha" ><b>Senha de usuário: (Não está cadastrado? Acesse esse <a href="cadastro.html">link</a>)</b></label>
+            <input type="password" class="input_cadastro" name="senha">
+            <br>
+            <br>
+            <hr class="hr_cadastro">
+            <br>
+            <label for="recaptcha"><b>Não sou um robô</b></label>
+            <input name="recaptcha" type="radio" value="recaptcha" class="input_cadastro">
+            <label for="checkbox"><b>Concordo com os <a href="">Termos de Seriço da Loja</a></b></label>
+            <input name="checkbox" type="checkbox" value="concordo" class="input_cadastro">
+            <br>
+            <br>
+            <hr class="hr_cadastro">
+            <input id="finalizar_compra_vdd" type="button" value="Finalizar compra" onclick="window.location.href='index.html'">
+        </div>
+        <br>
+    </div>
+        <hr>
+		<hr>
+		<div id="parte_de_baixo">
+			<h2 id="h2_navegacao">Navegação</h2>
+			<ul id="links_navegação_baixo">
+				<li class="link_baixo"><a href="index.html">Home</a></li>
+				<li class="link_baixo"><a href="cadastro.html">Cadastro</a></li>
+				<li class="link_baixo"><a href="Tela de login.html">Login</a></li>
+				<li class="link_baixo"><a href="Adicionar produtos.html">Venda de Produtos</a></li>
+				<li class="link_baixo"><a href="carrinho.html">Carrinho</a></li>
+			</ul>
+		<fieldset id="fieldset_contatos">
+		<H2 id="entre_em_contato">Entre em contato conosco!</H2>
+			<ul id="Contatos">
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Instagram.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Whatsapp.png"></a></li>
+				<li class="imagem_contato"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="Email.png"></a></li>
+			</ul>
+		</fieldset>
+		</div>
+		<hr class="hr_baixo">
+		<hr class="hr_baixo">
+		<h3 id="creditos"><u>Feito e estilizado por: Pedro Viana de Castilhos</u></h3>
+		<a href="#Titulo"><img id="seta" src="seta.png"></a>
+		<br>
+		<br>
+		<hr>
+		<hr>
+		<script src="Comandos_das_páginas.js"></script>
+    </body>
+</html>
